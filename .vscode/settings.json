@@ -1,0 +1,28 @@
+{
+    "python.defaultInterpreterPath": "C:/Users/marcandr.baillifa/AppData/Local/anaconda3_V2/envs/hydraulic-calc/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=88"
+    ],
+    "python.analysis.extraPaths": [
+        "./hydraulic_simulator",
+        "./hydraulic_simulator/components"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.pytest_cache": true
+    },
+    "editor.rulers": [
+        88
+    ],
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.encoding": "utf8",
+    "files.eol": "\n"
+}
